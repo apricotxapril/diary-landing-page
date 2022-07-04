@@ -1,5 +1,7 @@
 <template>
-  <div class="flex mx-20 h-screen bg-gradient-to-r from-green-200 to-blue-300 rounded-3xl pb-10">
+  <div
+    class="flex mx-40 h-screen bg-gradient-to-r from-green-200 to-blue-300 rounded-3xl pb-10 mb-32"
+  >
     <div class="w-1/2">
       <h1 class="text-6xl text-start font-semibold pl-28 pt-52 pb-10">
         Take a note everywhere with DearDiary
