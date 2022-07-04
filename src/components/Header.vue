@@ -8,11 +8,11 @@
         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
         labore et dolore magna aliqua. Massa tempor nec feugiat nisl pretium fusce id.
       </p>
-      <div class="flex justify-content-start pl-28">
+      <div class="flex justify-content-start pl-28 g-5">
         <button
-          class="text-2xl text-white font-semibold bg-emerald-500 hover:shadow-lg px-10 py-5 rounded-lg"
+          class="text-2xl text-white font-semibold bg-emerald-500 hover:shadow-xl px-10 py-5 rounded-lg"
         >
-          Download
+          Get Started
         </button>
       </div>
     </div>

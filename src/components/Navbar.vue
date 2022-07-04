@@ -1,5 +1,5 @@
 <template>
-  <nav class="mx-20 my-10">
+  <nav class="sticky top-0 mx-10 bg-white px-12 py-8">
     <div class="container flex justify-between">
       <a class="text-3xl font-bold" href=""><span>DearDiary.</span></a>
       <div>
