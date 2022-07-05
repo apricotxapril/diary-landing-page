@@ -10,37 +10,51 @@
   </div>
 
   <div class="flex h-96 mx-40 mt-10 mb-32 gap-9 justify-center">
-    <div class="w-1/3 bg-emerald-200">
+    <div class="w-1/3">
       <div class="flex justify-center">
-        <div class="w-40 h-40 bg-white my-8">icon</div>
+        <SparklesIcon
+          class="w-20 h-20 px-5 py-5 mt-20 mb-10 text-white bg-emerald-600 rounded-md"
+        ></SparklesIcon>
       </div>
 
       <h1 class="text-3xl font-medium text-center mb-4">Incredible</h1>
-      <p class="text-lg text-gray-600 font-medium text-center px-16">
+      <p class="text-lg text-gray-500 font-medium text-center px-16">
         Lorem ipsum dolor sit amet consectetur adipisicing.
       </p>
     </div>
 
-    <div class="w-1/3 bg-emerald-200">
+    <div class="w-1/3">
       <div class="flex justify-center">
-        <div class="w-40 h-40 bg-white my-8">icon</div>
+        <LightBulbIcon
+          class="w-20 h-20 px-5 py-5 mt-20 mb-10 text-white bg-emerald-600 rounded-md"
+        ></LightBulbIcon>
       </div>
 
       <h1 class="text-3xl font-medium text-center mb-4">Awesome</h1>
-      <p class="text-lg text-gray-600 font-medium text-center px-16">
+      <p class="text-lg text-gray-500 font-medium text-center px-16">
         Lorem ipsum dolor sit amet consectetur adipisicing.
       </p>
     </div>
 
-    <div class="w-1/3 bg-emerald-200">
+    <div class="w-1/3">
       <div class="flex justify-center">
-        <div class="w-40 h-40 bg-white my-8">icon</div>
+        <CursorClickIcon
+          class="w-20 h-20 px-5 py-5 mt-20 mb-10 text-white bg-emerald-600 rounded-md"
+        ></CursorClickIcon>
       </div>
 
       <h1 class="text-3xl font-medium text-center mb-4">Useful</h1>
-      <p class="text-lg text-gray-600 font-medium text-center px-16">
+      <p class="text-lg text-gray-500 font-medium text-center px-16">
         Lorem ipsum dolor sit amet consectetur adipisicing.
       </p>
     </div>
   </div>
 </template>
+
+<script>
+import { SparklesIcon, LightBulbIcon, CursorClickIcon } from '@heroicons/vue/solid'
+
+export default {
+  components: { SparklesIcon, LightBulbIcon, CursorClickIcon },
+}
+</script>
