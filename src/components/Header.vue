@@ -6,7 +6,7 @@
       <h1 class="text-6xl text-start font-semibold pl-28 pt-52 pb-10">
         Take a note everywhere with DearDiary
       </h1>
-      <p class="text-2xl text-start pl-28 pb-14 font-medium">
+      <p class="text-2xl text-start text-gray-600 pl-28 pb-14 font-medium">
         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
         labore et dolore magna aliqua. Massa tempor nec feugiat nisl pretium fusce id.
       </p>
