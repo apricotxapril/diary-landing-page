@@ -6,12 +6,12 @@
   <router-view /> -->
   <Navbar />
   <Header />
-  <!-- <About />
+  <About />
   <Features />
   <Prices />
   <Reviews />
   <Contacts />
-  <Footer /> -->
+  <Footer />
 </template>
 
 <script>
