@@ -1,5 +1,5 @@
 <template>
-  <div class="flex h-96 mx-40 mt-10 mb-20 px-10 py-5">
+  <div data-aos="fade-up" data-aos-duration="3000" class="flex h-96 mx-40 mt-10 mb-20 px-10 py-5">
     <div class="w-1/2 bg-gray-300 rounded-lg"></div>
     <div class="w-1/2">
       <h1 class="text-4xl text-start font-medium pt-20 px-20">Plan</h1>
@@ -9,7 +9,7 @@
       </p>
     </div>
   </div>
-  <div class="flex h-96 mx-40 mt-10 mb-20 px-10 py-5">
+  <div data-aos="fade-up" data-aos-duration="3000" class="flex h-96 mx-40 mt-10 mb-20 px-10 py-5">
     <div class="w-1/2 bg-gray-300 rounded-lg order-last"></div>
     <div class="w-1/2">
       <h1 class="text-4xl text-start font-medium pt-20 px-20">Write</h1>
@@ -19,7 +19,7 @@
       </p>
     </div>
   </div>
-  <div class="flex h-96 mx-40 mt-10 px-10 py-5">
+  <div data-aos="fade-up" data-aos-duration="3000" class="flex h-96 mx-40 mt-10 px-10 py-5">
     <div class="w-1/2 bg-gray-300 rounded-lg"></div>
     <div class="w-1/2">
       <h1 class="text-4xl text-start font-medium pt-20 px-20">List</h1>
@@ -30,3 +30,11 @@
     </div>
   </div>
 </template>
+<script setup lang="ts">
+import { onMounted } from 'vue'
+import AOS from 'aos'
+
+onMounted(() => {
+  AOS.init()
+})
+</script>
