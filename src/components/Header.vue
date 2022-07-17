@@ -27,7 +27,7 @@
         Get Started
       </button>
     </div>
-    <div class="hidden sm:block sm:flex-[0.4] sm:z-10">
+    <div class="hidden sm:block sm:flex-[0.6] sm:z-10 md:flex-[0.45] lg:flex-[0.4] lg:max-w-lg">
       <div class="animate-fading max-w-lg">
         <img
           class="animate-imageFloating"
@@ -39,7 +39,7 @@
       </div>
     </div>
     <div
-      class="w-full h-[18rem] lg:h-[25rem] absolute left-0 -bottom-2 bg-gradient-to-b from-transparent to-white"
+      class="w-full h-[10rem] sm:h-[13rem] md:h[18rem] lg:h-[25rem] absolute left-0 -bottom-2 bg-gradient-to-b from-transparent to-white"
     />
   </div>
 </template>
