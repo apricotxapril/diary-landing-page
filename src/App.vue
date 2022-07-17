@@ -4,7 +4,7 @@
     <router-link to="/about">About</router-link>
   </nav>
   <router-view /> -->
-  <Navbar />
+  <Navbar :scrollToSection="scrollToSection" />
   <Header />
   <About />
   <Features />
@@ -34,6 +34,14 @@ export default {
     Reviews,
     Contacts,
     Footer,
+  },
+  methods: {
+    scrollToSection(id) {
+      console.log('Clicked', id)
+      document.getElementById(id).scrollIntoView({
+        behavior: 'smooth',
+      })
+    },
   },
 }
 </script>

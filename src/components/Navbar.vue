@@ -4,11 +4,19 @@
       <a class="text-3xl font-semibold" href=""><span>DearDiary.</span></a>
       <div class="hidden sm:block">
         <ul class="flex flex-row sm:text-sm sm:font-medium sm:gap-4 md:text-md md:gap-5 lg:gap-7">
-          <li><a class="hover:text-emerald-700" href="">About</a></li>
-          <li><a class="hover:text-emerald-700" href="">Features</a></li>
-          <li><a class="hover:text-emerald-700" href="">Prices</a></li>
-          <li><a class="hover:text-emerald-700" href="">Reviews</a></li>
-          <li><a class="hover:text-emerald-700" href="">Contacts</a></li>
+          <li @click="scrollToSection('about')" class="cursor-pointer hover:text-emerald-700">
+            About
+          </li>
+          <li @click="scrollToSection('features')" class="cursor-pointer hover:text-emerald-700">
+            Features
+          </li>
+          <li @click="scrollToSection('prices')" class="cursor-pointer hover:text-emerald-700">
+            Prices
+          </li>
+          <li @click="scrollToSection('reviews')" class="cursor-pointer hover:text-emerald-700">
+            Reviews
+          </li>
+          <li class="cursor-pointer hover:text-emerald-700">Contacts</li>
         </ul>
       </div>
       <button
@@ -19,3 +27,10 @@
     </div>
   </nav>
 </template>
+<script>
+export default {
+  props: {
+    scrollToSection: Function,
+  },
+}
+</script>

@@ -1,5 +1,8 @@
 <template>
-  <div class="translate-y-8 space-y-8 sm:space-y-12 md:space-y-14">
+  <div
+    id="about"
+    class="scroll-m-28 translate-y-8 space-y-8 mb-32 sm:mb-40 sm:space-y-12 md:space-y-14"
+  >
     <h1 class="text-3xl font-bold text-center sm:text-4xl lg:text-5xl">
       More about
       <span class="text-transparent bg-clip-text bg-gradient-to-r from-green-600 to-blue-600"

@@ -1,5 +1,5 @@
 <template>
-  <div class="h-56 bg-gray-200">
+  <div id="prices" class="scroll-m-16 h-56 bg-gray-200">
     <h1 class="text-5xl font-semibold text-center pt-16">Flexible Plans</h1>
     <p class="text-lg font-medium text-center pt-6">
       Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo, omnis.

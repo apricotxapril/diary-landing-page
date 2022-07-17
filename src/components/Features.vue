@@ -1,5 +1,5 @@
 <template>
-  <div class="flex h-72 mx-20 mt-10 px-10 py-5 justify-center">
+  <div id="features" class="flex h-72 mx-20 mt-10 px-10 py-5 justify-center">
     <div class="flex flex-col">
       <h1 class="text-5xl font-semibold text-center pt-20">Our Features</h1>
       <p class="text-xl text-gray-500 font-medium text-center px-56 py-12">
