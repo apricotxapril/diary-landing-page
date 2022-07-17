@@ -1,5 +1,11 @@
 <template>
-  <div class="space-y-16">
+  <div class="space-y-16 md:-translate-y-12">
+    <h1 class="text-3xl font-bold text-center sm:text-4xl lg:text-5xl">
+      More about
+      <span class="text-transparent bg-clip-text bg-gradient-to-r from-green-600 to-blue-600"
+        >DearDiary</span
+      >
+    </h1>
     <div
       data-aos="fade-up"
       data-aos-duration="3000"
