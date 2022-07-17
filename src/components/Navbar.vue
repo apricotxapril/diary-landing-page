@@ -1,9 +1,9 @@
 <template>
-  <nav class="sticky top-0 bg-white bg-opacity-70 backdrop-blur z-10 py-6">
-    <div class="flex items-center justify-between px-8 lg:max-w-[1400px] lg:mx-auto">
+  <nav class="sticky top-0 bg-white bg-opacity-70 backdrop-blur z-40 py-6">
+    <div class="flex items-center justify-between px-8 sm:px-10">
       <a class="text-3xl font-semibold" href=""><span>DearDiary.</span></a>
       <div class="hidden sm:block">
-        <ul class="flex flex-row sm:text-sm sm:font-medium sm:gap-4 md:text-md">
+        <ul class="flex flex-row sm:text-sm sm:font-medium sm:gap-4 md:text-md md:gap-5 lg:gap-7">
           <li><a class="hover:text-emerald-700" href="">About</a></li>
           <li><a class="hover:text-emerald-700" href="">Features</a></li>
           <li><a class="hover:text-emerald-700" href="">Prices</a></li>
